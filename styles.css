@@ -1,13 +1,16 @@
 body {
         margin: 0;
         padding: 0;
+        background-color: #FFF7FD;
     }
     
 .container {
         position: absolute;
         /* margin: 5px; */
         width: auto;
-        right: 0;
+        /*change along with grid in nav links to make bar horizontal*/
+        top: 150px;
+        left: 0;
 }
 
 .logo img{
@@ -18,13 +21,13 @@ body {
 }
     
 .nav_links {
-        display: flex;
+        display: grid;
         list-style: none;
         padding: 0;
 }
 
 .nav_links li {
-        margin-right: 20px;
+        margin-left: 20px;
 }
 
 .img_link img {
