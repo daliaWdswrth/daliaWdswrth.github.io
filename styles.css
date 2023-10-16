@@ -15,7 +15,7 @@ body {
 
 .logo img{
         position: absolute;
-        width: 150px;
+        width: 170px;
         margin: 10px;
         left: 0;
 }
@@ -24,15 +24,45 @@ body {
         display: grid;
         list-style: none;
         padding: 0;
+        margin-top: 50px;
 }
 
 .nav_links li {
         margin-left: 20px;
+        margin-top: -50px;
 }
 
 .img_link img {
         width: 150px;
         object-fit: cover;
-        object-position: -100%, 0;
 }
+
+.main_container {
+        /* background-color: #7384ec; */
+        position: absolute;
+        top: 20px;
+        padding: 20px;
+        right: 0;
+        width: 80%;
+        height: 100%; 
+
+}
+
+#my_name {
+        position: relative;
+        width: 500px;
+        top: 0;
+        padding: 0;
+        overflow: hidden;
+        margin: -150px -900px -170px -50px; 
+}
+
+p {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+}
+
+
+
+
     

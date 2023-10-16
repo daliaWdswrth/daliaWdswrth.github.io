@@ -1,6 +1,5 @@
 
-
-// Include the navigation bar using JavaScript
+//placing nav bar on each page
 fetch("/nav_bar.html")
         .then(response => response.text())
         .then(data => {
