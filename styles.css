@@ -9,8 +9,8 @@ body {
         /* margin: 5px; */
         width: auto;
         /*change along with grid in nav links to make bar horizontal*/
-        top: 150px;
-        left: 0;
+        top: 0;
+        right: 0;
 }
 
 .logo img{
@@ -22,7 +22,7 @@ body {
     
 .nav_links {
         position: static;
-        display: grid;
+        display: flex;
         list-style: none;
         padding: 0;
         margin-top: 50px;
@@ -41,7 +41,7 @@ body {
 .main_container {
         /* background-color: #7384ec; */
         position: absolute;
-        top: 20px;
+        top: px;
         padding: 20px;
         right: 0;
         width: 80%;
