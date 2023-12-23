@@ -17,7 +17,7 @@ body {
 
 } 
 
-nav {
+.nav-bar nav {
         background: #FFFFFF;
         height: 80px;
         width: 100%;
@@ -32,20 +32,20 @@ label.logo {
 }
 
 
-nav ul {
+.nav-bar nav ul {
         float: right;
         margin-right: 20px;
 }
 
 
-nav ul li {
+.nav-bar nav ul li {
         display: inline-block;
         line-height: 80px;
         margin: 0 5px;
 }
 
 
-nav ul li a { 
+.nav-bar nav ul li a { 
         color: #8C4646; //background color
         font-size: 17px;
         padding: 7px 13px;
@@ -80,7 +80,7 @@ a:hover {
                 font-size: 30px;
                 padding-left: 50px;
         }
-        nav ul li a {
+        .nav-bar nav ul li a {
                 font-size: 16px;
 
         }
@@ -90,7 +90,7 @@ a:hover {
         .checkbtn {
                 display: block;
         }
-        ul {
+        .nav-bar ul {
                 position: fixed;
                 width: 100%;
                 height: 100vh;
@@ -99,11 +99,11 @@ a:hover {
                 left: 0;
                 text-align: center;
         }
-        nav ul li {
+        .nav-bar nav ul li {
                 display: block;
 
         }
-        nav ul li a {
+        .nav-bar nav ul li a {
                 font-size: 20px;
 
         }
@@ -158,6 +158,70 @@ section {
         padding-bottom: 5px;
 }
 
+.profile {
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px;
+}
+
+.profile img {
+        /* background: #111111; */
+        width: 30%;
+        height: 30%;
+        margin-left: 20px;
+}
+
+.text-container h2 {
+        /* background: #111111; */
+        width: 25px;
+        color: #8C4646;
+        font-size: 50pt;
+}
+
+.text-container {
+        flex: 1;
+}
+
+.text-container p {
+        /* background: #111111; */
+        text-align: left;
+        padding: 2rem;
+        color: #8C4646;
+        flex: 1;
+        font-size: 24pt;
+
+}
+.contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        text-align: right;
+        width: 15%;
+}
+
+.contact h3 {
+        /* background: #111111; */
+        margin-top: 0px;
+        color: #E3806A;
+        flex: 0;
+        font-size: 30pt;
+}
+
+.contact ul {
+        list-style: none;
+        padding: 0;
+}
+
+.contact li {
+        margin-bottom: 5px;
+}
+
+.contact a {
+        color: #8C4646;
+        text-decoration: none;
+        font-size: 24pt;
+        display: block;
+}
 
 
 
