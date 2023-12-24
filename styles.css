@@ -61,6 +61,68 @@ a:hover {
         transition: .5s;
 }
 
+.checkbtn {
+        font-size: 30px;
+        color: #8C4646;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+}
+
+#check {
+        display: none;
+}
+
+
+@media (min-width: 1201px) {
+        .checkbtn {
+                display: none;
+        }
+}
+
+
+@media (max-width: 952px) {
+        label.logo {
+                font-size: 30px;
+                padding-left: 50px;
+        }
+        .nav-bar nav ul li a {
+                font-size: 16px;
+        }
+}
+
+@media (max-width: 1200px) { //1000px
+        .checkbtn {
+                display: block;
+        }
+        .nav-bar ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #FFF8F4;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+        }
+        .nav-bar nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+        }
+        .nav-bar nav ul li a {
+                font-size: 20px;
+        }
+        a:hover {
+                background: #DB6B5D;
+        }
+        #check:checked ~ul {
+                left: 0;
+        }
+}
+
+
 section {
         background: #FFFFFF;
         background-size: cover;
@@ -134,7 +196,9 @@ section {
         font-size: 24pt;
 
 }
+
 .contact {
+        float: right;
         display: flex;
         flex-direction: column;
         justify-content: right;
