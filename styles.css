@@ -164,19 +164,15 @@ section {
         display: flex;
         justify-content: flex-start;
         margin: 20px;
-        font-family: 'Lato', sans-serif;
-        font-family: 'Prompt', sans-serif;
 }
 
 .profile img {
-        /* background: #111111; */
         width: 30%;
         height: 30%;
         margin-left: 20px;
 }
 
 .text-container h2 {
-        /* background: #111111; */
         width: 25px;
         color: #8C4646;
         font-size: 50pt;
@@ -187,7 +183,6 @@ section {
 }
 
 .text-container p {
-        /* background: #111111; */
         text-align: left;
         padding: 1rem;
         color: #8C4646;
@@ -200,11 +195,10 @@ section {
         flex-direction: column;
         justify-content: right;
         text-align: right;
-        width: 15%;
+        margin-right: 40px;
 }
 
 .contact h3 {
-        /* background: #111111; */
         margin-top: 0px;
         color: #E3806A;
         flex: 0;
@@ -225,6 +219,7 @@ section {
         text-decoration: none;
         font-size: 24pt;
         display: block;
+        border-radius: 3px;
 }
 
 .container .title2 {

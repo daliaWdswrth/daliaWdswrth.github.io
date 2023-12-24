@@ -6,4 +6,3 @@ fetch("/nav_bar.html")
         document.body.insertAdjacentHTML('afterbegin', data);
 });
 
-//Function to organize calendar then track times for each event 
