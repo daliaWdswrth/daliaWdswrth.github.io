@@ -1,5 +1,6 @@
 html {
         overflow-x: hidden;
+        
 }
 
 *{
@@ -12,7 +13,8 @@ html {
 }
 
 body {
-        font-family: helvetica; 
+        font-family: 'Lato', sans-serif;
+        font-family: 'Prompt', sans-serif;
         background-color: #FFFFFF;
 
 } 
@@ -162,6 +164,8 @@ section {
         display: flex;
         justify-content: flex-start;
         margin: 20px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Prompt', sans-serif;
 }
 
 .profile img {
@@ -185,7 +189,7 @@ section {
 .text-container p {
         /* background: #111111; */
         text-align: left;
-        padding: 2rem;
+        padding: 1rem;
         color: #8C4646;
         flex: 1;
         font-size: 24pt;
@@ -221,6 +225,13 @@ section {
         text-decoration: none;
         font-size: 24pt;
         display: block;
+}
+
+.container .title2 {
+        color: #588C7E;
+        text-align: right;
+        font-size: 25pt;
+        margin-bottom: 20px;
 }
 
 
