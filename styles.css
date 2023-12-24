@@ -62,62 +62,6 @@ a:hover {
 }
 
 
-.checkbtn {
-        font-size: 30px;
-        color: #E3806A;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-}
-
- #check {
-        display: none;
-}
-
-
-@media (max-width: 952px){
-        label.logo {
-                font-size: 30px;
-                padding-left: 50px;
-        }
-        .nav-bar nav ul li a {
-                font-size: 16px;
-
-        }
-}
-
-@media (max-width: 858px){
-        .checkbtn {
-                display: block;
-        }
-        .nav-bar ul {
-                position: fixed;
-                width: 100%;
-                height: 100vh;
-                background: #FFF8F4;
-                top: 80px;
-                left: 0;
-                text-align: center;
-        }
-        .nav-bar nav ul li {
-                display: block;
-
-        }
-        .nav-bar nav ul li a {
-                font-size: 20px;
-
-        }
-        a:hover, a.active {
-                background: none;
-                color: #E3806A;
-        }
-        #check:checked ~ ul{
-                left: 0;
-        }
-}
-
 section {
         background: #FFFFFF;
         background-size: cover;
@@ -173,7 +117,7 @@ section {
 }
 
 .text-container h2 {
-        width: 25px;
+        width: 20%;
         color: #8C4646;
         font-size: 50pt;
 }
@@ -186,6 +130,7 @@ section {
         text-align: left;
         padding: 1rem;
         color: #8C4646;
+        width: 100%;
         flex: 1;
         font-size: 24pt;
 
