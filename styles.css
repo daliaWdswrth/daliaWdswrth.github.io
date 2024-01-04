@@ -373,13 +373,21 @@ section {
 
 .text-container2{
         flex: 1;
-        padding: 1rem;
+        margin-left: 2%;
 }
 
 .text-container2 h2{
-        width: 50%;
         color: #8C4646;
         font-size: 25pt;
+}
+
+.text-container2 a {
+        color: #8C4646;
+}
+
+.text-container2 a:hover {
+        background: transparent;
+        color: #E3806A;
 }
 
 
