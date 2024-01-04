@@ -48,7 +48,7 @@ label.logo {
 
 
 .nav-bar nav ul li a { 
-        color: #8C4646; 
+        color: #8C4646; //you found the bug
         font-size: 17px;
         padding: 7px 13px;
         border-radius: 3px;
@@ -91,7 +91,7 @@ a:hover {
         }
 }
 
-@media (max-width: 1200px) { //1000px
+@media (max-width: 1200px) { 
         .checkbtn {
                 display: block;
         }
@@ -372,13 +372,12 @@ section {
 
 
 .text-container2{
-        margin-left: 5%;
         flex: 1;
         padding: 1rem;
 }
 
 .text-container2 h2{
-        width: 100%;
+        width: 50%;
         color: #8C4646;
         font-size: 25pt;
 }
