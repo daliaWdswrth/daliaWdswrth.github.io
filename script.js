@@ -6,3 +6,9 @@ fetch("/nav_bar.html")
         document.body.insertAdjacentHTML('afterbegin', data);
 });
 
+function toggleSliderNav() {
+        var sliderNav = document.querySelector('.slider-nav');
+        sliderNav.classList.toggle('hidden');
+        //add for videos?
+}
+
