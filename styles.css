@@ -297,7 +297,6 @@ section {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
-        padding: 1rem;
 }
 
 .slide-wrapper {
@@ -307,7 +306,7 @@ section {
 }
 
 .slider {
-        max-width: 50rem;
+        max-width: 40rem;
         display: flex;
         aspect-ratio: 16 / 9;
         overflow-x: auto;
@@ -388,6 +387,48 @@ section {
 .text-container2 a:hover {
         background: transparent;
         color: #E3806A;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.game-container .text-container2 {
+    width: 48%;
+    margin-right: 45px;
+    margin-left: 0;
+}
+
+.game-image {
+    width: 48%;
+    margin-right: 0;
+}
+
+.game-image img {
+    width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .game-container .text-container2, 
+    .game-image {
+        width: 100%;
+        margin: 0 0 10px 0; 
+    }
+
+    .game-image img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .hidden {
